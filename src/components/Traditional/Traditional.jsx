@@ -1,5 +1,5 @@
 // Traditional.js
-import {React, useState} from "react";
+import {React} from "react";
 import { Link } from "react-router-dom";
 import "./Traditional.css";
 import {traditional_list} from "../data.js";

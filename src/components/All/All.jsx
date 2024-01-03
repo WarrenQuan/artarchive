@@ -1,5 +1,5 @@
 // Digital.js
-import { React, useState } from "react";
+import { React } from "react";
 import { Link } from "react-router-dom";
 import "./All.css";
 import { all_data } from "../data.js";

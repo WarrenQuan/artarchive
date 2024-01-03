@@ -1,10 +1,9 @@
 // App.js
 import { React, useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Traditional from "./components/Traditional/Traditional";
-import Design from "./components/Design/Design";
 import Menu from "./components/Menu/Menu";
 import Digital from "./components/Digital/Digital";
 import About from "./components/About/About";
@@ -16,7 +15,8 @@ import ScrollToTop from "./components/ScrollToTop";
 
 // future sections: archive for old art, ui/ux with more structure: https://uxdesign.cc/how-to-structure-your-ux-portfolio-4df6928a8242
 const App = () => {
-  const [logo, changeLogo] = useState("initial");
+  
+  // const [logo, changeLogo] = useState("initial");
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {

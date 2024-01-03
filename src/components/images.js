@@ -1,17 +1,18 @@
-function getImageSize(imgSrc) {
-  var imgLoader = new Image(); // create a new image object
+// can't get to work without infinite loading
+// function getImageSize(imgSrc) {
+//   var imgLoader = new Image(); // create a new image object
 
-  var height;
-  var width;
-  imgLoader.onload = function () {
-    // assign onload handler
-    height = imgLoader.height;
-    width = imgLoader.width;
-  };
+//   var height;
+//   var width;
+//   imgLoader.onload = function () {
+//     // assign onload handler
+//     height = imgLoader.height;
+//     width = imgLoader.width;
+//   };
 
-  imgLoader.src = imgSrc; // set the image source
-  return [width, height];
-}
+//   imgLoader.src = imgSrc; // set the image source
+//   return [width, height];
+// }
 
 export const imagesGal = {
   postcards: [

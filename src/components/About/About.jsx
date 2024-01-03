@@ -1,4 +1,4 @@
-// Sculpture.js
+// About.jsx
 import {React, useState} from 'react';
 import "./About.css"
 import Typewriter from 'typewriter-effect';
@@ -19,7 +19,7 @@ const About = () => {
   return (
     
     <div className='about'>
-      <img id="image" src={currentImage} onClick={handleClick}></img>
+      <img id="image" src={currentImage} onClick={handleClick} alt="thumbnail_img"></img>
         <h1><Typewriter
       onInit={(typewriter) => {
         typewriter.typeString("what is a warren:")

@@ -3,7 +3,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import "./PortfolioItem.css";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const PortfolioItem = ({
   name,
@@ -18,11 +18,12 @@ const PortfolioItem = ({
   document.body.style.color = text_color;
   console.log(text_color);
 
-  const history = useNavigate();
+  // old code for navigation
+  // const history = useNavigate();
 
-  const goBack = () => {
-    history(-1);
-  };
+  // const goBack = () => {
+  //   history(-1);
+  // };
 
   return (
     <motion.div

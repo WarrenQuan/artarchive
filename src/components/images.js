@@ -70,16 +70,16 @@ export const imagesGal = {
   ],
   melting_pot: [
     {
-      src: "/cultural_melting/Warren Quan Cultural Identity Project (1)-1.PNG",
+      src: "/cultural_melting/identity1.png",
     },
     {
-      src: "/cultural_melting/Warren Quan Cultural Identity Project (1)-2.PNG",
+      src: "/cultural_melting/identity1.png",
     },
     {
-      src: "/cultural_melting/Warren Quan Cultural Identity Project (1)-3.PNG",
+      src: "/cultural_melting/identity1.png",
     },
     {
-      src: "/cultural_melting/Warren Quan Cultural Identity Project (1)-4.PNG",
+      src: "/cultural_melting/identity1.png",
     },
   ],
   food: [

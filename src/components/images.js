@@ -244,27 +244,27 @@ export const images = {
   melting_pot: [
     {
       original:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-1.PNG",
+        "/cultural_melting/identity1.png",
       thumbnail:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-1.PNG",
+      "/cultural_melting/identity1.png",
     },
     {
       original:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-2.PNG",
+      "/cultural_melting/identity2.png",
       thumbnail:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-2.PNG",
+      "/cultural_melting/identity2.png",
     },
     {
       original:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-3.PNG",
+      "/cultural_melting/identity3.png",
       thumbnail:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-3.PNG",
+      "/cultural_melting/identity3.png",
     },
     {
       original:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-4.PNG",
+      "/cultural_melting/identity4.png",
       thumbnail:
-        "/cultural_melting/Warren Quan Cultural Identity Project (1)-4.PNG",
+      "/cultural_melting/identity4.png",
     },
   ],
   food: [

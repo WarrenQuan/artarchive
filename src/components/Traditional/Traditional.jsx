@@ -1,8 +1,9 @@
-// Traditional.js
+// Traditional.jsx
+// For Traditional Art page of website
 import {React} from "react";
 import { Link } from "react-router-dom";
 import "./Traditional.css";
-import {traditional_list} from "../data.js";
+import { traditional_list } from "../Data/TraditionalListData";
 
 const Traditional = () => {
   document.body.style.backgroundColor = "#FFFFFF";

@@ -1,4 +1,5 @@
-// Menu for mobile
+// Menu.jsx
+// Menu Hamburger for Mobile Version of Site
 import "./Menu.css";
 import {Mail, LinkedIn, Code} from '@mui/icons-material';
 

@@ -1,8 +1,10 @@
 // Design.js
+// For Design Section of the Website 
+// TODO
 import {React} from "react";
 import { Link } from "react-router-dom";
 import "./Design.css";
-import {design_list} from "../data.js";
+import { design_list } from "../Data/DesignListData";
 
 const Design = () => {
   document.body.style.backgroundColor = "#FFFFFF";

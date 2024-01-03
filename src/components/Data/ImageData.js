@@ -69,20 +69,6 @@ export const imagesGal = {
       height: 5100,
     },
   ],
-  melting_pot: [
-    {
-      src: "/cultural_melting/identity1.png",
-    },
-    {
-      src: "/cultural_melting/identity1.png",
-    },
-    {
-      src: "/cultural_melting/identity1.png",
-    },
-    {
-      src: "/cultural_melting/identity1.png",
-    },
-  ],
   food: [
     {
       src: "/food/alnico.png",
@@ -168,7 +154,8 @@ export const imagesGal = {
       width: 1750,
       height: 1750,
     },
-  ],  uncond: [
+  ],
+  uncond: [
     {
       src: "/uncond_image/gen1.png",
       width: 434,
@@ -178,25 +165,28 @@ export const imagesGal = {
       src: "/uncond_image/gen2.png",
       width: 414,
       height: 900,
-    },  {
+    },
+    {
       src: "/uncond_image/gen3.png",
       width: 438,
       height: 900,
-    },  {
+    },
+    {
       src: "/uncond_image/gen3.jpeg",
-      width:3547,
+      width: 3547,
       height: 2674,
     },
     {
       src: "/uncond_image/gen4.jpeg",
-      width:3547,
+      width: 3547,
       height: 2674,
-    },    {
+    },
+    {
       src: "/uncond_image/gen5.jpeg",
       width: 3547,
       height: 2674,
-    }, 
-],
+    },
+  ],
 };
 
 export const images = {
@@ -242,32 +232,10 @@ export const images = {
       thumbnail: "/postcards/Postcard_Disney_Final.PNG",
     },
   ],
-  melting_pot: [
-    {
-      original:
-        "/cultural_melting/identity1.png",
-      thumbnail:
-      "/cultural_melting/identity1.png",
-    },
-    {
-      original:
-      "/cultural_melting/identity2.png",
-      thumbnail:
-      "/cultural_melting/identity2.png",
-    },
-    {
-      original:
-      "/cultural_melting/identity3.png",
-      thumbnail:
-      "/cultural_melting/identity3.png",
-    },
-    {
-      original:
-      "/cultural_melting/identity4.png",
-      thumbnail:
-      "/cultural_melting/identity4.png",
-    },
-  ],
+  melting_pot: Array.from({ length: 4 }, (_, index) => ({
+    original: `/cultural_melting/identity${index + 1}.png`,
+    thumbnail: `/cultural_melting/identity${index + 1}.png`,
+  })),
   food: [
     {
       original: "/food/alnico.png",
@@ -340,24 +308,10 @@ export const images = {
       thumbnail: "/lowell/M&R' 2.PNG",
     },
   ],
-  cage: [
-    {
-      original: "/cage/cage1.jpg",
-      thumbnail: "/cage/cage1.jpg",
-    },
-    {
-      original: "/cage/cage2.jpg",
-      thumbnail: "/cage/cage2.jpg",
-    },
-    {
-      original: "/cage/cage3.jpg",
-      thumbnail: "/cage/cage3.jpg",
-    },
-    {
-      original: "/cage/cage4.jpg",
-      thumbnail: "/cage/cage4.jpg",
-    },
-  ],
+  cage: Array.from({ length: 4 }, (_, index) => ({
+    original: `/cage/cage${index + 1}.jpg`,
+    thumbnail: `/cage/cage${index + 1}.jpg`,
+  })),
   perceive: [
     {
       original: "/perceive/perceive.jpg",
@@ -367,111 +321,39 @@ export const images = {
       original: "/perceive/perceive.gif",
       thumbnail: "/perceive/perceive.gif",
     },
-  ], net: [
+  ],
+  net: [
     {
       original: "/net/net1.png",
       thumbnail: "/net/net1.png",
     },
-   {
+    {
       original: "/net/net3.png",
       thumbnail: "/net/net3.png",
-    },  {
+    },
+    {
       original: "/net/net2.jpg",
       thumbnail: "/net/net2.jpg",
-    },{
+    },
+    {
       original: "/net/net4.jpg",
       thumbnail: "/net/net4.jpg",
-    }, {
+    },
+    {
       original: "/net/net5.png",
       thumbnail: "/net/net5.png",
     },
-  ],sellout: [
-    {
-      original: "/sellout/sellout1.jpg",
-      thumbnail: "/sellout/sellout1.jpg",
-    },
-    {
-      original: "/sellout/sellout2.jpg",
-      thumbnail: "/sellout/sellout2.jpg",
-    },  {
-      original: "/sellout/sellout3.png",
-      thumbnail: "/sellout/sellout3.png",
-    }, {
-      original: "/sellout/sellout4.jpg",
-      thumbnail: "/sellout/sellout4.jpg",
-    },  {
-      original: "/sellout/sellout5.jpg",
-      thumbnail: "/sellout/sellout5.jpg",
-    }, {
-      original: "/sellout/sellout6.jpg",
-      thumbnail: "/sellout/sellout6.jpg",
-    }, {
-      original: "/sellout/sellout7.jpeg",
-      thumbnail: "/sellout/sellout7.jpeg",
-    }, {
-      original: "/sellout/sellout8.jpeg",
-      thumbnail: "/sellout/sellout8.jpeg",
-    }, {
-      original: "/sellout/sellout9.jpeg",
-      thumbnail: "/sellout/sellout9.jpeg",
-    }, {
-      original: "/sellout/sellout10.jpeg",
-      thumbnail: "/sellout/sellout10.jpeg",
-    }, {
-      original: "/sellout/sellout11.jpg",
-      thumbnail: "/sellout/sellout11.jpg",
-    }, {
-      original: "/sellout/sellout12.jpg",
-      thumbnail: "/sellout/sellout12.jpg",
-    }, {
-      original: "/sellout/sellout13.jpg",
-      thumbnail: "/sellout/sellout13.jpg",
-    }, {
-      original: "/sellout/sellout14.jpeg",
-      thumbnail: "/sellout/sellout14.jpeg",
-    },
-  ],sellout_comic: [
-    {
-      original: "/sellout_comic/1.png",
-      thumbnail: "/sellout_comic/1.png",
-    },
-    {
-      original: "/sellout_comic/2.png",
-      thumbnail: "/sellout_comic/2.png",
-    },  {
-      original: "/sellout_comic/3.png",
-      thumbnail: "/sellout_comic/3.png",
-    },  {
-      original: "/sellout_comic/4.png",
-      thumbnail: "/sellout_comic/4.png",
-    },  {
-      original: "/sellout_comic/5.png",
-      thumbnail: "/sellout_comic/5.png",
-    },  {
-      original: "/sellout_comic/6.png",
-      thumbnail: "/sellout_comic/6.png",
-    },  {
-      original: "/sellout_comic/7.png",
-      thumbnail: "/sellout_comic/7.png",
-    },
   ],
-    uncond: [
-      {
-        original: "/uncond_image/gen1.png",
-        thumbnail: "/uncond_image/gen1.png",
-      },
-      {
-        original: "/uncond_image/gen2.png",
-        thumbnail: "/uncond_image/gen2.png",
-      },  {
-        original: "/uncond_image/gen3.png",
-        thumbnail: "/uncond_image/gen3.png",
-      },  {
-        original: "/uncond_image/gen4.png",
-        thumbnail: "/uncond_image/gen4.png",
-      },  {
-        original: "/uncond_image/gen5.png",
-        thumbnail: "/uncond_image/gen5.png",
-      }, 
-  ],
+  sellout: Array.from({ length: 14 }, (_, index) => ({
+    original: `/sellout/sellout${index + 1}.jpg`,
+    thumbnail: `/sellout/sellout${index + 1}.jpg`,
+  })),
+  sellout_comic: Array.from({ length: 7 }, (_, index) => ({
+    original: `/sellout_comic/${index + 1}.png`,
+    thumbnail: `/sellout_comic/${index + 1}.png`,
+  })),
+  uncond: Array.from({ length: 5 }, (_, index) => ({
+    original: `/uncond_image/gen${index + 1}.png`,
+    thumbnail: `/uncond_image/cage${index + 1}.png`,
+  })),
 };

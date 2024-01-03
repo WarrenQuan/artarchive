@@ -10,7 +10,7 @@ import About from "./components/About/About";
 import PortfolioItem from "./components/PortfolioItem/PortfolioItem";
 import All from "./components/All/All";
 import "./App.css";
-import { all_data } from "./components/data";
+import { all_data } from "./components/Data/AllData";
 import ScrollToTop from "./components/ScrollToTop";
 
 // future sections: archive for old art, ui/ux with more structure: https://uxdesign.cc/how-to-structure-your-ux-portfolio-4df6928a8242

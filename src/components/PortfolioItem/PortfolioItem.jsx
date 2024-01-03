@@ -1,4 +1,5 @@
-// Sculpture.js
+// PortfolioItem.jsx
+// Each item in portfolio
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./PortfolioItem.css";

@@ -1,4 +1,5 @@
-// About.jsx
+// About.js
+// For About Section of the Website
 import {React, useState} from 'react';
 import "./About.css"
 import Typewriter from 'typewriter-effect';

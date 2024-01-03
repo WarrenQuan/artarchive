@@ -1,8 +1,9 @@
-// Digital.js
+// All.js
+// For All of the Art Section of the Website
 import { React } from "react";
 import { Link } from "react-router-dom";
 import "./All.css";
-import { all_data } from "../data.js";
+import { all_data } from "../Data/AllData.js";
 
 const All = ({ windowWidth, thresholdWidth, menuOpen, setMenuOpen  }) => {
   document.body.style.backgroundColor = "#FFFFFF";

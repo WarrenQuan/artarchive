@@ -16,6 +16,7 @@ const Traditional = () => {
               <img
                 src={require(`../../assets/traditional/${item.image_link}`)}
                 alt={item.id}
+                loading="lazy"
               />
           </div>
           </Link>

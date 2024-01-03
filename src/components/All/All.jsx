@@ -15,6 +15,7 @@ const All = ({ windowWidth, thresholdWidth, menuOpen, setMenuOpen  }) => {
               <img
                 src={require(`../../assets/${item.classification}/${item.image_link}`)}
                 alt={item.id}
+                loading="lazy"
               />
             </div>
           </Link>

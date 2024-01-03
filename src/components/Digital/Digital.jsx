@@ -16,6 +16,7 @@ const Digital = () => {
               <img
                 src={require(`../../assets/digital/${item.image_link}`)}
                 alt={item.id}
+                loading="lazy"
               />
           </div>
           </Link>

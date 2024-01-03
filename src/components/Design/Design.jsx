@@ -16,6 +16,7 @@ const Design = () => {
               <img
                 src={require(`../../assets/design/${item.image_link}`)}
                 alt={item.id}
+                loading="lazy"
               />
           </div>
           </Link>

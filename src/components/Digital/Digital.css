@@ -1,0 +1,87 @@
+.digital{
+    padding: 20px;
+    background-color: white;
+    
+}
+
+.project.lowell{
+    background-color: black;
+    padding-left: 25%;
+    padding-right: 25%; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    transition: transform 0.5s ease-in-out;
+    img {
+        animation: moveUpDown 3s infinite;
+    }
+}
+
+.project.comic{    
+    background-color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    img {
+        transform-origin: top right, top left;
+        animation: stretchAnimation 5s infinite alternate;
+    }
+    
+}
+
+.project.gif.cultural{    
+    background-color: #6e668b;
+}
+
+.project.gif.mail{    
+    background-color: #7b6d5b;
+}
+
+
+
+@keyframes stretchAnimation {
+0%, 100% {
+    transform: scaleY(0.85) scaleX(0.95);
+}
+50% {
+    transform: scaleY(1.1) scaleX(1.65);
+}
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0) scaleX(0.99);
+    }
+    50% {
+      transform: translateY(-4%) scaleY(1.01);
+    }
+}
+.project:hover{
+    cursor: pointer;
+
+    img {
+       opacity: 75%;
+    }
+}
+/* 
+.project.comic:hover{
+    img {
+        transform-origin: top right, top left;
+        animation: stretchAnimation 5s infinite alternate;
+    }
+}
+
+.project.lowell:hover{
+    img {
+        animation: moveUpDown 3s infinite;
+    }
+}
+
+.project.mail:hover {
+    img{
+        background-color: black;
+        opacity:50%;
+        
+    }
+}  */
+

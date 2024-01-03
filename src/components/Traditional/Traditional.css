@@ -1,0 +1,14 @@
+.traditional{
+    padding: 20px;
+    background-color: white;
+}
+.project.gif.cute_captivity img{    
+   background-color: #B19d7f;
+  }
+/* .project.gif.cute_captivity img{    
+    object-fit:contain;
+  } */
+
+  .project.sellout_store{
+    height: 10%;
+}

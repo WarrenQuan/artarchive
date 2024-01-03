@@ -1,0 +1,52 @@
+
+.menu {
+    width: 300px;
+    height: 100vh;
+    background-color: #341e83;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+
+.menu.active {
+    right: 0;
+}
+
+.menu a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    width: 70%;
+}
+
+.menu li {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.menu li:hover {
+    font-weight: 700;
+}
+
+.menu p{
+    font-size: 10px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    transform: scale(120%);
+}

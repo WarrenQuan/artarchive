@@ -1,0 +1,28 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: -3px 3px 2px #72728633;
+    text-align: center;
+}
+
+
+.about h1{
+    font-size: 50px;
+    line-height: 1;
+    text-shadow: -3px 3px rgb(173, 68, 143);
+ }
+
+ .about #image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+ }
